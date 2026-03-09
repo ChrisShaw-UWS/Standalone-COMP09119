@@ -1,0 +1,209 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "kg_to_grams",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "grams_to_kg",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "kg_to_pounds",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "pounds_to_kg",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "grams_to_pounds",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "pounds_to_grams",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "test_kg_to_grams",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.tests.test_app",
+        "description": "assignment_1_flask_app.tests.test_app",
+        "peekOfCode": "def test_kg_to_grams():\n    # test that 1 kg is equal to 1000 grams\n    # if this test fails, the function kg_to_grams is incorrect\n    assert kg_to_grams(1) == 1000\ndef test_grams_to_kg():\n    # test that 1000 grams is equal to 1 kg\n    # if this test fails, the function grams_to_kg is incorrect\n    assert grams_to_kg(1000) == 1\ndef test_kg_to_pounds():\n    # test that 1 kg is equal to 2.20462 pounds",
+        "detail": "assignment_1_flask_app.tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_grams_to_kg",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.tests.test_app",
+        "description": "assignment_1_flask_app.tests.test_app",
+        "peekOfCode": "def test_grams_to_kg():\n    # test that 1000 grams is equal to 1 kg\n    # if this test fails, the function grams_to_kg is incorrect\n    assert grams_to_kg(1000) == 1\ndef test_kg_to_pounds():\n    # test that 1 kg is equal to 2.20462 pounds\n    # if this test fails, the function kg_to_pounds is incorrect\n    assert pytest.approx(kg_to_pounds(1), rel=0.01) == 2.20462\ndef test_pounds_to_kg():\n    # test that 2.20462 pounds is equal to 1 kg",
+        "detail": "assignment_1_flask_app.tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_kg_to_pounds",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.tests.test_app",
+        "description": "assignment_1_flask_app.tests.test_app",
+        "peekOfCode": "def test_kg_to_pounds():\n    # test that 1 kg is equal to 2.20462 pounds\n    # if this test fails, the function kg_to_pounds is incorrect\n    assert pytest.approx(kg_to_pounds(1), rel=0.01) == 2.20462\ndef test_pounds_to_kg():\n    # test that 2.20462 pounds is equal to 1 kg\n    # if this test fails, the function pounds_to_kg is incorrect\n    assert pytest.approx(pounds_to_kg(2.20462), rel=1e-5) == 1\ndef test_grams_to_pounds():\n    # test that 1000 grams is equal to 2.20462 pounds",
+        "detail": "assignment_1_flask_app.tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_pounds_to_kg",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.tests.test_app",
+        "description": "assignment_1_flask_app.tests.test_app",
+        "peekOfCode": "def test_pounds_to_kg():\n    # test that 2.20462 pounds is equal to 1 kg\n    # if this test fails, the function pounds_to_kg is incorrect\n    assert pytest.approx(pounds_to_kg(2.20462), rel=1e-5) == 1\ndef test_grams_to_pounds():\n    # test that 1000 grams is equal to 2.20462 pounds\n    # if this test fails, the function grams_to_pounds is incorrect\n    assert pytest.approx(grams_to_pounds(1000), rel=1e-5) == 2.20462",
+        "detail": "assignment_1_flask_app.tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_grams_to_pounds",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.tests.test_app",
+        "description": "assignment_1_flask_app.tests.test_app",
+        "peekOfCode": "def test_grams_to_pounds():\n    # test that 1000 grams is equal to 2.20462 pounds\n    # if this test fails, the function grams_to_pounds is incorrect\n    assert pytest.approx(grams_to_pounds(1000), rel=1e-5) == 2.20462",
+        "detail": "assignment_1_flask_app.tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "kg_to_grams",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "def kg_to_grams(kg):\n    # 1 kg = 1000 grams\n    return kg * 1000\ndef grams_to_kg(grams):\n    # 1 gram = 0.001 kg\n    return grams * 0.001\ndef kg_to_pounds(kg):\n    # 1 kg = 2.20462 pounds\n    return kg * 2.20462\ndef pounds_to_kg(pounds):",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    },
+    {
+        "label": "grams_to_kg",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "def grams_to_kg(grams):\n    # 1 gram = 0.001 kg\n    return grams * 0.001\ndef kg_to_pounds(kg):\n    # 1 kg = 2.20462 pounds\n    return kg * 2.20462\ndef pounds_to_kg(pounds):\n    # 1 pound = 0.453592 kg\n    return pounds * 0.453592\ndef grams_to_pounds(grams):",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    },
+    {
+        "label": "kg_to_pounds",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "def kg_to_pounds(kg):\n    # 1 kg = 2.20462 pounds\n    return kg * 2.20462\ndef pounds_to_kg(pounds):\n    # 1 pound = 0.453592 kg\n    return pounds * 0.453592\ndef grams_to_pounds(grams):\n    # chain the functions together: grams -> kg -> pounds\n    kg = grams_to_kg(grams)\n    return kg_to_pounds(kg)",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    },
+    {
+        "label": "pounds_to_kg",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "def pounds_to_kg(pounds):\n    # 1 pound = 0.453592 kg\n    return pounds * 0.453592\ndef grams_to_pounds(grams):\n    # chain the functions together: grams -> kg -> pounds\n    kg = grams_to_kg(grams)\n    return kg_to_pounds(kg)\ndef pounds_to_grams(pounds):\n    # chain the functions together: pounds -> kg -> grams\n    kg = pounds_to_kg(pounds)",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    },
+    {
+        "label": "grams_to_pounds",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "def grams_to_pounds(grams):\n    # chain the functions together: grams -> kg -> pounds\n    kg = grams_to_kg(grams)\n    return kg_to_pounds(kg)\ndef pounds_to_grams(pounds):\n    # chain the functions together: pounds -> kg -> grams\n    kg = pounds_to_kg(pounds)\n    return kg_to_grams(kg)\ndef main_conversion_function(value, from_unit, to_unit):\n    # Main function to handle all conversions based on user input",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    },
+    {
+        "label": "pounds_to_grams",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "def pounds_to_grams(pounds):\n    # chain the functions together: pounds -> kg -> grams\n    kg = pounds_to_kg(pounds)\n    return kg_to_grams(kg)\ndef main_conversion_function(value, from_unit, to_unit):\n    # Main function to handle all conversions based on user input\n    if from_unit == to_unit:\n        return value\n    elif from_unit == 'kg' and to_unit == 'grams':\n        return kg_to_grams(value)",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    },
+    {
+        "label": "main_conversion_function",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "def main_conversion_function(value, from_unit, to_unit):\n    # Main function to handle all conversions based on user input\n    if from_unit == to_unit:\n        return value\n    elif from_unit == 'kg' and to_unit == 'grams':\n        return kg_to_grams(value)\n    elif from_unit == 'grams' and to_unit == 'kg':\n        return grams_to_kg(value)\n    elif from_unit == 'kg' and to_unit == 'pounds':\n        return kg_to_pounds(value)",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "def index():\n    result = None\n    if request.method == 'POST':\n        try:\n            value = float(request.form['value'])\n            from_unit = request.form['from_unit']\n            to_unit = request.form['to_unit']\n            result = main_conversion_function(value, from_unit, to_unit)\n            # results as strings\n            if result != \"Invalid conversion\":",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "assignment_1_flask_app.app",
+        "description": "assignment_1_flask_app.app",
+        "peekOfCode": "app = Flask(__name__, template_folder='./')\n# Conversion functions\ndef kg_to_grams(kg):\n    # 1 kg = 1000 grams\n    return kg * 1000\ndef grams_to_kg(grams):\n    # 1 gram = 0.001 kg\n    return grams * 0.001\ndef kg_to_pounds(kg):\n    # 1 kg = 2.20462 pounds",
+        "detail": "assignment_1_flask_app.app",
+        "documentation": {}
+    }
+]
