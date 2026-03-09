@@ -1,2 +1,1 @@
-#This is a weight conversion app
-this is a weight conversion application for the DevOps assessment.
+# This is a weight conversion app for the DevOps assessment. #
