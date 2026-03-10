@@ -1,6 +1,6 @@
 services:
   flask-app:
-    image: uwschriss/flask-app:latest
+    image: uwschriss/assignment_1_flask_app:latest
   nginx:
     image: nginx:latest
     ports:
