@@ -4,8 +4,7 @@ services:
       context: ./assignment_1_flask_app
       dockerfile: Dockerfile
     image: uwschriss/assignment_1_flask_app:latest
-    # Note: We removed the 'ports' section here.
-    # The app is now only accessible via Nginx.
+    # The app is only accessible via Nginx.
 
   nginx:
     image: nginx:latest
